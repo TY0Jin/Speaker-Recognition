@@ -1,6 +1,6 @@
 DATASET_DIR = 'C:/Users/Jin/Desktop/wav'
 
-BATCH_NUM_TRIPLETS = 20  # should be a multiple of 3
+BATCH_NUM_TRIPLETS = 18  # should be a multiple of 3
 
 # very dumb values. I selected them to have a blazing fast training.
 # we will change them to their true values (to be defined?) later.
