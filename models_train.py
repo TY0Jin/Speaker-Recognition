@@ -17,7 +17,7 @@ def main(voxceleb_dir=c.DATASET_DIR):
     voxceleb = read_voxceleb_structure(voxceleb_dir)
 
     if len(voxceleb) == 0:
-        logging.warning('Have you converted flac files to wav? If not, run audio/convert_flac_2_wav.sh')
+        logging.warning('voxceleb1 data  not found, check the data and retry')
         exit(1)
 
     batch = stochastic_mini_batch(voxceleb, batch_size=c.BATCH_NUM_TRIPLETS)
